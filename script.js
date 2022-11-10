@@ -106,6 +106,7 @@ function deleteTask(id) {
     localStorage.setItem("gorevListesi", JSON.stringify(gorevListesi));
 }
 
+
 function editTask(taskId, taskName) {
     editId = taskId;
     isEditTask = true;
